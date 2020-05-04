@@ -43,8 +43,11 @@
     background-color: #565d47;
     color: white;
 }
-
+.title-img {
+    text-align: center;
+}
 #title .col-lg-6 {
+    
     margin: auto 0;
 }
 
@@ -73,7 +76,11 @@
 #title img {
     padding: 7% 15%;
 }
-
+@media screen and (max-width: 900px) {
+    #title .col-lg-6{
+        text-align: center;
+    }
+}
 /* Precaution */
 
 #precaution {
