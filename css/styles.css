@@ -1,0 +1,68 @@
+.container-fluid {
+    padding: 7% 15%;
+    text-align: unset;
+}
+
+/* Navbar */
+
+.navbar img {
+    width: 10%;
+}
+
+.navbar {
+    background-color: #565d47;
+}
+
+.nav-item {
+    margin-right: 1%;
+}
+
+.nav-item:hover {
+    background-color: #b49c73;
+    border-radius: 20px;
+}
+
+/* Title */
+
+#title {
+    position: relative;
+    background-color: #565d47;
+    color: white;
+}
+
+#title h3 {
+    line-height: 2.5rem;
+}
+
+.title-head img {
+    position: absolute;
+    top: 10%;
+    right: -30%;
+    
+    /* width: 95%; */
+    
+}
+
+#title .carousel {
+    background-color: black;
+}
+
+#title img {
+    padding: 7% 15%;
+}
+
+/* Precaution */
+#precaution {
+    text-align: center;
+}
+#precaution h4 {
+    padding: 2% 0;
+}
+#precaution p {
+    padding: 0 5%;
+    font-size: 1rem;
+}
+#precaution i {
+    color: #565d47;
+    font-size: 3.5rem ;
+}
