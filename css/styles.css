@@ -14,12 +14,26 @@
 }
 
 .nav-item {
+    padding: 0 2%;
     margin-right: 1%;
 }
 
 .nav-item:hover {
     background-color: #b49c73;
     border-radius: 20px;
+    animation: shadowAnimation 0.5s linear forwards;
+}
+
+@keyframes shadowAnimation {
+    0% {
+        box-shadow: 0px 0px 0px #b49c00;
+    }
+    50% {
+        box-shadow: 0px 0px 15px #b49cf3;
+    }
+    100% {
+        box-shadow: 0px 0px 30px #b49c73;
+    }
 }
 
 /* Title */
@@ -29,19 +43,26 @@
     background-color: #565d47;
     color: white;
 }
+
+#title .col-lg-6 {
+    margin: auto 0;
+}
+
 #title h1 {
     font-size: 3.2rem;
 }
+
 #title h2 {
     font-size: 2.2rem;
 }
+
 #title h3 {
     font-size: 1.2rem;
     line-height: 2.5rem;
 }
 
 .title-head img {
-    margin-right: auto;
+    margin: 0 auto;
     width: 80%;
 }
 
@@ -54,17 +75,21 @@
 }
 
 /* Precaution */
+
 #precaution {
     text-align: center;
 }
+
 #precaution h4 {
     padding: 2% 0;
 }
+
 #precaution p {
     padding: 0 5%;
     font-size: 1rem;
 }
+
 #precaution i {
     color: #565d47;
-    font-size: 3.5rem ;
+    font-size: 3.5rem;
 }
