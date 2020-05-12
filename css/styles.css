@@ -194,3 +194,40 @@
 .hide {
     display: none;
 }
+
+
+/* Global Stats */
+
+#global {
+    background-color: black;
+    color: white;
+}
+
+.custom-card {
+    background-color: red;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #565d47;
+    padding: 20px 30px;
+    margin: 5%;
+}
+
+.custom-card:active {
+    animation: displayAnimation 2s linear normal;
+}
+
+@keyframes displayAnimation {
+    0% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0
+    }
+}
+
+#global h2 {
+    font-size: 1.5rem;
+}
+
+#global .row i {
+    padding: 0 4%;
+}
