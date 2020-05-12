@@ -125,12 +125,12 @@
 }
 
 .searchbar input {
-    width: 90%;
+    width: 80%;
     border: none;
 }
 
 .searchbar i {
-    width: 5%;
+    padding: 2px;
 }
 
 .iconActive {
@@ -160,6 +160,15 @@
     width: 80px;
     height: 80px;
     margin: 10px;
+}
+
+.flag img:hover {
+    border: green solid 5px;
+}
+
+.flag img:active {
+    border: blue solid 8px;
+    box-shadow: 0 0 30px firebrick;
 }
 
 
