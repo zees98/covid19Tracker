@@ -1,7 +1,7 @@
 .container-fluid {
     padding: 7% 15%;
-    
 }
+
 
 /* Navbar */
 
@@ -36,6 +36,7 @@
     }
 }
 
+
 /* Title */
 
 #title {
@@ -43,11 +44,12 @@
     background-color: #565d47;
     color: white;
 }
+
 .title-img {
     text-align: center;
 }
+
 #title .col-lg-6 {
-    
     margin: auto 0;
 }
 
@@ -76,11 +78,14 @@
 #title img {
     padding: 7% 15%;
 }
+
 @media screen and (max-width: 900px) {
-    #title .col-lg-6{
+    #title .col-lg-6 {
         text-align: center;
     }
 }
+
+
 /* Precaution */
 
 #precaution {
@@ -99,4 +104,83 @@
 #precaution i {
     color: #565d47;
     font-size: 3.5rem;
+}
+
+
+/* ______________________________________________ */
+
+.huge {
+    font-size: 150rem;
+    color: black;
+}
+
+
+/* Search Bar */
+
+.searchbar {
+    box-shadow: 0 0 20px grey;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.searchbar input {
+    width: 90%;
+    border: none;
+}
+
+.searchbar i {
+    width: 5%;
+}
+
+.iconActive {
+    color: red;
+    text-shadow: 0 0 5px red;
+}
+
+
+/* Search Textfield */
+
+#search h4 {
+    padding: 2%;
+    text-align: center;
+}
+
+.country-flags {
+    padding-top: 50px;
+}
+
+.flag {
+    display: inline-block;
+    text-align: center;
+}
+
+.flag img {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+
+/* Arrow down */
+
+.arrowDown {
+    text-align: center;
+    margin: 5%;
+}
+
+.arrowDown i {
+    font-size: 1.5rem;
+    border-radius: 100%;
+    box-shadow: 0 0 30px black;
+    padding: 10px;
+}
+
+.arrowDown i:hover {
+    color: blue;
+    cursor: auto;
+}
+
+.hide {
+    display: none;
 }

@@ -5,29 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid 19 Tracker By Zeeshan</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
+
+
+
+
     <section id="navigator">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <a href="" class="mr-auto">
                 <div class="navbar-brand">
-                    <img src="images/CoV,png.png" alt="">
-                    Covid-19 Tracker
+                    <img src="images/CoV,png.png" alt=""> Covid-19 Tracker
                 </div>
             </a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collNav"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collNav">
                 <ul class="navbar-nav ml-auto">
+                    <input type="checkbox" id="subscribe">
                     <li class="nav-item"><a class="nav-link" href="">Precaution</a></li>
                     <li class="nav-item"><a class="nav-link" href="">Global</a></li>
                     <li class="nav-item"><a class="nav-link" href="">Search</a></li>
@@ -84,9 +85,7 @@
                 <div class="col-lg-4">
                     <i class="fas fa-hand-holding-water"></i>
                     <h4>Wash Your Hands</h4>
-                    <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap
-                        and
-                        water.
+                    <p>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.
                     </p>
                 </div>
 
@@ -100,24 +99,37 @@
                 <div class="col-lg-4">
                     <i class="fas fa-newspaper"></i>
                     <h4>Stay Up to date</h4>
-                    <p>Keep up to date on the latest information from trusted sources, such as WHO or your local and
-                        national
-                        health
-                        authorities.</p>
+                    <p>Keep up to date on the latest information from trusted sources, such as WHO or your local and national health authorities.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <section id="search">
+        <div class="container-fluid">
+            <h4>Search by country</h4>
+            <div class="searchbar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="country-flags">
+
+            </div>
+            <div class="arrowDown">
+
+                <i class="fas fa-chevron-down"></i>
+
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 
 </body>
 
